@@ -100,7 +100,7 @@ module.exports = function report(data) {
           fs.writeFileSync('./.reporter/lt.json', JSON.stringify(lastRun));
         })
         .catch((err) => {
-          console.log(err);
+          //
         });
   } catch (error) {
     console.error(error);
